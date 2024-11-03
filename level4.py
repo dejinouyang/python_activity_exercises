@@ -13,10 +13,15 @@
 # Test your code: python -m Tests.test_level4
 
 def solution(num1, num2):
-    pass
+    int_division = num1 // num2  
+    float_division = num1 / num2  
+    return int_division, float_division 
+
 
 
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
-    print(solution(a, b))
+    int_result, float_result = solution(a, b)
+    print(int_result)   #
+    print(float_result)  
