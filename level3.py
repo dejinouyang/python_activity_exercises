@@ -10,6 +10,14 @@
 
 # a = 3
 # b = 5
+def sum(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mult(a, b):
+    return a * b
 
 # Print the following:
 # 8
@@ -21,3 +29,6 @@
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
+    print(sum(a, b))   
+    print(sub(a, b))   
+    print(mult(a, b))
