@@ -13,6 +13,7 @@
 
 def solution(num1):
     pass
+    return [i ** 2 for i in range(num1)] 
 
 
 if __name__ == '__main__':
